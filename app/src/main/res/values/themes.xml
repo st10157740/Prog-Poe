@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TitanBudget1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+
+    </style>
+
+    <style name="Theme.TitanBudget1" parent="Base.Theme.TitanBudget1" />
+
+    <style name="Theme.TitanBudget1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TitanBudget1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TitanBudget1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/flag"
+            android:title="Goals" />
+        <item
+            android:id="@+id/nav_totalCategoriesSummary"
+            android:icon="@drawable/contract"
+            android:title="Total Categories Summary" />
+        <item
+            android:id="@+id/nav_viewCategories"
+            android:icon="@drawable/categories"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/nav_viewChart"
+            android:icon="@drawable/chart"
+            android:title="Chart" />
+
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/graduation"
+            android:title="Financial Resource" />
+
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/theme"
+            android:title="Theme" />
+    </group>
+</menu>

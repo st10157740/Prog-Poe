@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".EducationFragment">
+
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Financial Resources"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/articleButton"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:backgroundTint="@color/green"
+        android:text="Tips for budgeting to meet financial goals" />
+
+    <Button
+        android:id="@+id/videoButton"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="20dp"
+        android:text="Budgeting for Beginners"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/articleButton1"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:backgroundTint="@color/green"
+        android:text="Popular Budgeting Strategies"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/articleButton2"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:backgroundTint="@color/green"
+        android:text="Financial Wellness" />
+
+
+</LinearLayout>
